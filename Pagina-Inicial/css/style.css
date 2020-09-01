@@ -1,0 +1,319 @@
+body.inicio {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+body.contato {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    background-color: rgb(162, 187, 177);;
+    margin-top: 40px;
+}
+
+body.sobre {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    color: white;
+    background-color: rgb(162, 187, 177);
+    margin-top: 40px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel .container {
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    filter: blur(3px);
+}
+
+ .imagem-bola img { 
+  width: 150px;
+  height: 150px;
+} 
+
+
+/* BOTÕES CARROSSEL
+------------------------------------------------------- */
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f5f5f5 5%, #dedede 100%);
+	background-color:#f5f5f5;
+	border-radius:6px;
+	border:1px solid #dedede;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f7f7f7;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dedede 5%, #f5f5f5 100%);
+	background-color:#dedede;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* BARRA DE NAVEGAÇÃO 
+------------------------------------------------------- */
+
+.bg-dark {
+    background-color: #2d2e2a !important;
+}
+
+.nav-link {
+    color: #4f4f4d !important; 
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+.nav-link:hover {
+    color: #767871 !important; 
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover,.navbar-dark .navbar-brand:visited, .navbar-dark .navbar-brand:active {
+    color:#696965;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+.navbar-dark .navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    transition: .3s linear;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #878780;
+}
+
+.navbar a i { color: white;}
+
+
+.navbar-nav li {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 3px solid gold;
+}
+
+/* FEATURETTE CONTENT
+-------------------------------------------------- */
+
+.featurette img {
+    width: 450px;
+    height: 400px;
+    border-radius: 50px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:grey;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+     color: white; 
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93); 
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+/* ÁREA DE CONTATO
+------------------------------------------------------- */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #4f4f4d; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=Enviar] {
+  background-color: #5a5a5a;
+  color: #4f4f4d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container.contato {
+  border-radius: 5px;
+  background-color: #2d2e2a;
+}
+
+
+/* SOBRE
+-------------------------------------------------- */
+
+.footer {
+    background-color: #2d2e2a;
+    height: 30px;
+}
+
+.container-baixo {
+    margin-top: 100px;
+    text-justify: auto;
+}
+
+
+/* CONTRASTE
+-------------------------------------------------- */
+
+.contraste,
+.contraste nav,
+.contraste div,
+.contraste li,
+.contraste ol,
+.contraste header,
+.contraste footer,
+.contraste section,
+.contraste main,
+.contraste aside,
+.contraste article {
+    color: white !important;
+    background: black !important;
+}
+
+.contraste h1,
+.contraste h2,
+.contraste h3,
+.contraste h4,
+.contraste h5,
+.contraste h6,
+.contraste p,
+.contraste label,
+.contraste strong,
+.contraste em,
+.contraste cite,
+.contraste q,
+.contraste i,
+.contraste b,
+.contraste u,
+.contraste span {
+    color: white !important;
+}
+
+.contraste a{
+    color: yellow !important;
+}
+
+.contraste button,
+.contraste input[type=button],
+.contraste input[type=reset],
+.contraste input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contraste img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contraste img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+.contraste input[type=text],
+.contraste input[type=password],
+.contraste input[type=url],
+.contraste input[type=search],
+.contraste input[type=email],
+.contraste input[type=tel],
+.contraste input[type=date],
+.contraste input[type=month],
+.contraste input[type=week],
+.contraste input[type=datetime],
+.contraste input[type=datetime-local],
+.contraste textarea,
+.contraste input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
